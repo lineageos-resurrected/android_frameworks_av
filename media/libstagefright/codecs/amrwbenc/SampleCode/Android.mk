@@ -14,8 +14,7 @@ LOCAL_CFLAGS := -DLINUX
 
 LOCAL_SHARED_LIBRARIES := \
     libstagefright \
-    libdl \
-    liblog
+    libdl
 
 LOCAL_C_INCLUDES := \
     $(LOCAL_PATH)/ \
